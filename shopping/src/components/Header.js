@@ -3,7 +3,9 @@ function Header() {
   return (
     <div className="container center row">
      
-       <Link to="/"> <h1>ARTSY.co</h1> </Link> 
+      <Link to="/">  <div className="logo row center"> <img width="50px" src="logo.png" alt="text"/>
+     
+       <h1>ARTSY.co</h1> </div></Link>  
        
      <div className=" hide row">
        <Link to="/"> 
